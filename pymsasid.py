@@ -10,6 +10,7 @@ from . import syn_intel as intel
 from .operand import VENDOR_INTEL, VENDOR_AMD
 
 class Pymsasid:
+
     def __init__(self, mode=None, source='',syntax=intel.intel_syntax,
                  vendor=VENDOR_INTEL, hook=BufferHook):
         self.error = 0
